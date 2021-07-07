@@ -6,6 +6,7 @@ import { XIcon } from '@heroicons/react/solid';
 import { MicrophoneIcon } from '@heroicons/react/solid';
 import { SearchIcon } from '@heroicons/react/outline';
 import Avatar from './Avatar';
+import HeaderOptions from './HeaderOptions';
 
 function Header() {
   const router = useRouter();
@@ -44,6 +45,7 @@ function Header() {
         </form>
         <Avatar className='ml-auto' url='https://i.stack.imgur.com/IvxTk.png' />
       </div>
+      <HeaderOptions />
     </header>
   );
 }
