@@ -16,3 +16,7 @@ function Search() {
 }
 
 export default Search;
+
+export async function getServerSideProprs(context) {
+  const useDummyData = false;
+}
