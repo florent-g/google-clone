@@ -1,453 +1,569 @@
-export default [
-  {
-    kind: 'customsearch#result',
-    title: 'Fff',
-    htmlTitle: '<b>Fff</b>',
-    link: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8zMTM3NjIzMC9wb2RjYXN0L3Jzcw==',
-    displayLink: 'www.google.com',
-    snippet:
-      'Fff. saeed ebrahimi. Fff. Subscribe. Visit website. Ygg. Available episodes. Aug 14, 2020. Fff (Trailer). 13 sec. Search. Clear search. Close search.',
-    htmlSnippet:
-      '<b>Fff</b>. saeed ebrahimi. <b>Fff</b>. Subscribe. Visit website. Ygg. Available episodes. Aug 14, 2020. <b>Fff</b> (Trailer). 13 sec. Search. Clear search. Close search.',
-    cacheId: 'nG2bCLainb4J',
-    formattedUrl: 'https://www.google.com/podcasts?feed...',
-    htmlFormattedUrl: 'https://www.google.com/podcasts?feed...',
-    pagemap: {
-      metatags: [
-        {
-          'og:image':
-            'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR4cgOFjLph4ONZLmHVeO_Dej9nfkvxDFr6kqNz6RUn2D8HUdrg',
-          'apple-itunes-app':
-            'app-id=1398000105, affiliate-data=ct=podcastsSmartBannerShow001&pt=9008, app-argument=https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8zMTM3NjIzMC9wb2RjYXN0L3Jzcw',
-          'og:type': 'music.radio_station',
-          'twitter:card': 'summary',
-          'twitter:title': 'Fff',
-          'og:site_name': 'Google Podcasts',
-          'og:title': 'Fff',
-          'music:creator': 'Fff',
-          title: 'Fff',
-          'og:description': 'Ygg',
-          'twitter:creator': 'Fff',
-          'article:author': 'Fff',
-          'twitter:image':
-            'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR4cgOFjLph4ONZLmHVeO_Dej9nfkvxDFr6kqNz6RUn2D8HUdrg',
-          referrer: 'origin',
-          viewport:
-            'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui',
-          'og:url':
-            'https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8zMTM3NjIzMC9wb2RjYXN0L3Jzcw',
-        },
-      ],
-      cse_image: [
-        {
-          src: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR4cgOFjLph4ONZLmHVeO_Dej9nfkvxDFr6kqNz6RUn2D8HUdrg',
-        },
-      ],
+export default Response = {
+  kind: 'customsearch#search',
+  url: {
+    type: 'application/json',
+    template:
+      'https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json',
+  },
+  queries: {
+    request: [
+      {
+        title: 'Google Custom Search - florent',
+        totalResults: '105000',
+        searchTerms: 'florent',
+        count: 10,
+        startIndex: 1,
+        inputEncoding: 'utf8',
+        outputEncoding: 'utf8',
+        safe: 'off',
+        cx: '0d2dd39efcef9fc69',
+      },
+    ],
+    nextPage: [
+      {
+        title: 'Google Custom Search - florent',
+        totalResults: '105000',
+        searchTerms: 'florent',
+        count: 10,
+        startIndex: 11,
+        inputEncoding: 'utf8',
+        outputEncoding: 'utf8',
+        safe: 'off',
+        cx: '0d2dd39efcef9fc69',
+      },
+    ],
+  },
+  context: {
+    title: 'Google',
+  },
+  searchInformation: {
+    searchTime: 0.330495,
+    formattedSearchTime: '0.33',
+    totalResults: '105000',
+    formattedTotalResults: '105,000',
+  },
+  items: [
+    {
+      kind: 'customsearch#result',
+      title: 'Google Maps',
+      htmlTitle: 'Google Maps',
+      link: 'https://www.google.com/maps/contrib/114494123230479169075/reviews',
+      displayLink: 'www.google.com',
+      snippet:
+        "Hey Florent, We're sorry for your experience with our staff. Our place is usually busy with clients and activities in different than other cafes. You can find us being  ...",
+      htmlSnippet:
+        'Hey \u003cb\u003eFlorent\u003c/b\u003e, We&#39;re sorry for your experience with our staff. Our place is usually busy with clients and activities in different than other cafes. You can find us being &nbsp;...',
+      cacheId: 'H8U6wACvaWkJ',
+      formattedUrl:
+        'https://www.google.com/maps/contrib/114494123230479169075/reviews',
+      htmlFormattedUrl:
+        'https://www.google.com/maps/contrib/114494123230479169075/reviews',
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS6AKPxcKCbFW7eGHGdTjCiqmdQQ5IgvK--21nWN8kIjF239s-qTIZ3Jk8T',
+            width: '310',
+            height: '163',
+          },
+        ],
+        metatags: [
+          {
+            referrer: 'origin',
+            'og:image':
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/lg_5.png',
+            'og:image:width': '256',
+            'twitter:card': 'summary',
+            'og:site_name': 'Contributions by Florent',
+            viewport:
+              'initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no',
+            'og:title': 'Contributions by Florent',
+            'og:image:height': '256',
+            google: 'notranslate',
+            'og:description': 'Level 5 Local Guide | 587 Points',
+          },
+        ],
+        place: [
+          {
+            image:
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/lg_5.png',
+            name: 'Contributions by Florent',
+            description: 'Level 5 Local Guide | 587 Points',
+          },
+        ],
+        cse_image: [
+          {
+            src: 'https://maps.gstatic.com/tactile/geoprofile/sharing/lg_5.png',
+          },
+        ],
+      },
     },
-  },
-  {
-    kind: 'customsearch#result',
-    title: 'The Chat (FFF)',
-    htmlTitle: 'The Chat (<b>FFF</b>)',
-    link: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8zMmJjMDk4MC9wb2RjYXN0L3Jzcw==',
-    displayLink: 'www.google.com',
-    snippet:
-      'On The Chat (FFF), we spotlight conversations ranging from Food, Fitness to Finesse that is essential to our daily lives.',
-    htmlSnippet:
-      'On The Chat (<b>FFF</b>), we spotlight conversations ranging from Food, Fitness to Finesse that is essential to our daily lives.',
-    cacheId: 'pL90MIFXYL0J',
-    formattedUrl: 'https://www.google.com/podcasts?feed...',
-    htmlFormattedUrl: 'https://www.google.com/podcasts?feed...',
-    pagemap: {
-      metatags: [
-        {
-          'og:image':
-            'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQrQXJpWVTTsYASOOWHGuxhvVmymAhA1vt0rH1PdeaZCe04eJP6',
-          'apple-itunes-app':
-            'app-id=1398000105, affiliate-data=ct=podcastsSmartBannerShow001&pt=9008, app-argument=https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8zMmJjMDk4MC9wb2RjYXN0L3Jzcw',
-          'og:type': 'music.radio_station',
-          'twitter:card': 'summary',
-          'twitter:title': 'The Chat (FFF)',
-          'og:site_name': 'Google Podcasts',
-          'og:title': 'The Chat (FFF)',
-          'music:creator': 'The Chat (FFF)',
-          title: 'The Chat (FFF)',
-          'og:description':
-            'On The Chat (FFF), we spotlight conversations ranging from Food, Fitness to Finesse that is essential to our daily lives.',
-          'twitter:creator': 'The Chat (FFF)',
-          'article:author': 'The Chat (FFF)',
-          'twitter:image':
-            'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQrQXJpWVTTsYASOOWHGuxhvVmymAhA1vt0rH1PdeaZCe04eJP6',
-          referrer: 'origin',
-          viewport:
-            'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui',
-          'og:url':
-            'https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8zMmJjMDk4MC9wb2RjYXN0L3Jzcw',
-        },
-      ],
-      cse_image: [
-        {
-          src: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQrQXJpWVTTsYASOOWHGuxhvVmymAhA1vt0rH1PdeaZCe04eJP6',
-        },
-      ],
+    {
+      kind: 'customsearch#result',
+      title: 'Google Maps',
+      htmlTitle: 'Google Maps',
+      link: 'https://www.google.com/maps/contrib/114601960744109261443/reviews',
+      displayLink: 'www.google.com',
+      snippet:
+        'Florent Bodin. 1 contribution. Looking for your own reviews and photos? You can contribute on Google Maps too! See my profile. Reviews Photos.',
+      htmlSnippet:
+        '\u003cb\u003eFlorent\u003c/b\u003e Bodin. 1 contribution. Looking for your own reviews and photos? You can contribute on Google Maps too! See my profile. Reviews Photos.',
+      cacheId: 'CIAS2W9x6lYJ',
+      formattedUrl:
+        'https://www.google.com/maps/contrib/114601960744109261443/reviews',
+      htmlFormattedUrl:
+        'https://www.google.com/maps/contrib/114601960744109261443/reviews',
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSjsuMXw41HvKt-V5343CUF8T9SctSxlub6gOjFnmpdNLm0us0e5clNujI',
+            width: '310',
+            height: '163',
+          },
+        ],
+        metatags: [
+          {
+            referrer: 'origin',
+            'og:image':
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/non_lg.png',
+            'og:image:width': '256',
+            'twitter:card': 'summary',
+            'og:site_name': 'Contributions by Florent Bodin',
+            viewport:
+              'initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no',
+            'og:title': 'Contributions by Florent Bodin',
+            'og:image:height': '256',
+            google: 'notranslate',
+            'og:description': '11 Contributions',
+          },
+        ],
+        place: [
+          {
+            image:
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/non_lg.png',
+            name: 'Contributions by Florent Bodin',
+            description: '11 Contributions',
+          },
+        ],
+        cse_image: [
+          {
+            src: 'https://maps.gstatic.com/tactile/geoprofile/sharing/non_lg.png',
+          },
+        ],
+      },
     },
-  },
-  {
-    kind: 'customsearch#result',
-    title: 'Forbidden Foods Ltd (FFF : ASX) Stock Price & News - Google ...',
-    htmlTitle:
-      'Forbidden Foods Ltd (<b>FFF</b> : ASX) Stock Price &amp; News - Google ...',
-    link: 'https://www.google.com/finance/quote/FFF:ASX',
-    displayLink: 'www.google.com',
-    snippet:
-      'Get the latest Forbidden Foods Ltd (FFF) real-time quote, historical performance, charts, and other financial information to help you make more informed trading ...',
-    htmlSnippet:
-      'Get the latest Forbidden Foods Ltd (<b>FFF</b>) real-time quote, historical performance, charts, and other financial information to help you make more informed trading&nbsp;...',
-    cacheId: 'KtBOrE9O0nwJ',
-    formattedUrl: 'https://www.google.com/finance/quote/FFF:ASX',
-    htmlFormattedUrl: 'https://www.google.com/finance/quote/<b>FFF</b>:ASX',
-    pagemap: {
-      cse_thumbnail: [
-        {
-          src: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRQldTHAz14MiWY-2bpICyONYLUjcoY7hJc8AQj1tmfmhHDQ43UNmSVu_8',
-          width: '311',
-          height: '162',
-        },
-      ],
-      metatags: [
-        {
-          'application-name': 'Google Finance',
-          'og:image':
-            'https://ssl.gstatic.com/finance/favicon/finance_770x402.png',
-          'theme-color': '#ffffff',
-          'og:type': 'website',
-          'og:image:width': '770',
-          'twitter:card': 'summary',
-          'twitter:title':
-            'Forbidden Foods Ltd (FFF : ASX) Stock Price & News - Google Finance',
-          'apple-mobile-web-app-title': 'Google Finance',
-          'og:title':
-            'Forbidden Foods Ltd (FFF : ASX) Stock Price & News - Google Finance',
-          'og:image:height': '402',
-          'og:description':
-            'Get the latest Forbidden Foods Ltd (FFF) real-time quote, historical performance, charts, and other financial information to help you make more informed trading and investment decisions.',
-          'twitter:image':
-            'https://ssl.gstatic.com/finance/favicon/finance_496x496.png',
-          referrer: 'origin',
-          'apple-mobile-web-app-status-bar-style': 'default',
-          'msapplication-tap-highlight': 'no',
-          'twitter:site': '@google',
-          viewport:
-            'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui',
-          'apple-mobile-web-app-capable': 'yes',
-          'twitter:description':
-            'Get the latest Forbidden Foods Ltd (FFF) real-time quote, historical performance, charts, and other financial information to help you make more informed trading and investment decisions.',
-          'mobile-web-app-capable': 'yes',
-          'og:url': 'https://www.google.com/finance/quote/FFF:ASX',
-        },
-      ],
-      cse_image: [
-        {
-          src: 'https://ssl.gstatic.com/finance/favicon/finance_770x402.png',
-        },
-      ],
+    {
+      kind: 'customsearch#result',
+      title: '32 Rue Florent Evrard, 42100 Saint-Étienne, France - Google Maps',
+      htmlTitle:
+        '32 Rue \u003cb\u003eFlorent\u003c/b\u003e Evrard, 42100 Saint-Étienne, France - Google Maps',
+      link: 'https://www.google.com/maps/search/?api=1&query=32%20Rue%20Florent%20Evrard,%2042100%20Saint-%C3%89tienne,%20France&query_place_id=ChIJFycRjbyu9UcRewl-Wk3RQmY',
+      displayLink: 'www.google.com',
+      snippet:
+        '32 Rue Florent Evrard, 42100 Saint-Étienne, France. Your location. Trails. Dedicated lanes. Bicycle-friendly roads. Dirt/unpaved trails. Live traffic. Fast. Slow .',
+      htmlSnippet:
+        '32 Rue \u003cb\u003eFlorent\u003c/b\u003e Evrard, 42100 Saint-Étienne, France. Your location. Trails. Dedicated lanes. Bicycle-friendly roads. Dirt/unpaved trails. Live traffic. Fast. Slow .',
+      cacheId: 'BsCBpXuUFqEJ',
+      formattedUrl:
+        'https://www.google.com/.../search/?...32%20Rue%20Florent%20Evrard...',
+      htmlFormattedUrl:
+        'https://www.google.com/.../search/?...32%20Rue%20\u003cb\u003eFlorent\u003c/b\u003e%20Evrard...',
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQUDTMfgWSotdHvbOKW4AmY1steqsilnDJS4q33zGx-d0AXvvxPiFY9Mvs',
+            width: '204',
+            height: '247',
+          },
+        ],
+        metatags: [
+          {
+            referrer: 'origin',
+            'twitter:card': 'summary',
+            'theme-color': '#3367d6',
+            viewport: 'initial-scale=1.0, user-scalable=no',
+            google: 'notranslate',
+          },
+        ],
+        cse_image: [
+          {
+            src: 'https://maps.gstatic.com/tactile/basepage/pegman_sherlock.png',
+          },
+        ],
+      },
     },
-  },
-  {
-    kind: 'customsearch#result',
-    title: '55 North Mining Inc (FFF : CNSX) Stock Price & News - Google ...',
-    htmlTitle:
-      '55 North Mining Inc (<b>FFF</b> : CNSX) Stock Price &amp; News - Google ...',
-    link: 'https://www.google.com/finance/quote/FFF:CNSX',
-    displayLink: 'www.google.com',
-    snippet:
-      'FFF. May 11, 3:51:04 PM GMT-4 · CAD · CNSX · Disclaimer. 1D. 5D. 1M. 6M. YTD . 1Y. 5Y. MAX. No data. close. Compare to. Compare. ACME Lithium Ord Shs.',
-    htmlSnippet:
-      '<b>FFF</b>. May 11, 3:51:04 PM GMT-4 · CAD · CNSX · Disclaimer. 1D. 5D. 1M. 6M. YTD . 1Y. 5Y. MAX. No data. close. Compare to. Compare. ACME Lithium Ord Shs.',
-    cacheId: '341UysPa9H4J',
-    formattedUrl: 'https://www.google.com/finance/quote/FFF:CNSX',
-    htmlFormattedUrl: 'https://www.google.com/finance/quote/<b>FFF</b>:CNSX',
-    pagemap: {
-      cse_thumbnail: [
-        {
-          src: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRQldTHAz14MiWY-2bpICyONYLUjcoY7hJc8AQj1tmfmhHDQ43UNmSVu_8',
-          width: '311',
-          height: '162',
-        },
-      ],
-      metatags: [
-        {
-          'application-name': 'Google Finance',
-          'og:image':
-            'https://ssl.gstatic.com/finance/favicon/finance_770x402.png',
-          'theme-color': '#ffffff',
-          'og:type': 'website',
-          'og:image:width': '770',
-          'twitter:card': 'summary',
-          'twitter:title':
-            '55 North Mining Inc (FFF : CNSX) Stock Price & News - Google Finance',
-          'apple-mobile-web-app-title': 'Google Finance',
-          'og:title':
-            '55 North Mining Inc (FFF : CNSX) Stock Price & News - Google Finance',
-          'og:image:height': '402',
-          'og:description':
-            'Get the latest 55 North Mining Inc (FFF) real-time quote, historical performance, charts, and other financial information to help you make more informed trading and investment decisions.',
-          'twitter:image':
-            'https://ssl.gstatic.com/finance/favicon/finance_496x496.png',
-          referrer: 'origin',
-          'apple-mobile-web-app-status-bar-style': 'default',
-          'msapplication-tap-highlight': 'no',
-          'twitter:site': '@google',
-          viewport:
-            'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui',
-          'apple-mobile-web-app-capable': 'yes',
-          'twitter:description':
-            'Get the latest 55 North Mining Inc (FFF) real-time quote, historical performance, charts, and other financial information to help you make more informed trading and investment decisions.',
-          'mobile-web-app-capable': 'yes',
-          'og:url': 'https://www.google.com/finance/quote/FFF:CNSX',
-        },
-      ],
-      cse_image: [
-        {
-          src: 'https://ssl.gstatic.com/finance/favicon/finance_770x402.png',
-        },
-      ],
+    {
+      kind: 'customsearch#result',
+      title: 'Florent Daccord',
+      htmlTitle: '\u003cb\u003eFlorent\u003c/b\u003e Daccord',
+      link: 'https://www.google.com/maps/contrib/114031791051308678840/reviews?hl=en-US&sa=X&ved=2ahUKEwiQiaWuuKjdAhWCd98KHQa5DRYQvfQBegQIARA2',
+      displayLink: 'www.google.com',
+      snippet:
+        "Hello Florent. I'm sorry to hear this was your experience with the school. We have resubmitted to have this request expedited so it should be taken care of ASAP.",
+      htmlSnippet:
+        'Hello \u003cb\u003eFlorent\u003c/b\u003e. I&#39;m sorry to hear this was your experience with the school. We have resubmitted to have this request expedited so it should be taken care of ASAP.',
+      cacheId: 'acX8R9WwvKwJ',
+      formattedUrl:
+        'https://www.google.com/maps/contrib/.../reviews?hl=en-US&sa=X...',
+      htmlFormattedUrl:
+        'https://www.google.com/maps/contrib/.../reviews?hl=en-US&amp;sa=X...',
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSjsuMXw41HvKt-V5343CUF8T9SctSxlub6gOjFnmpdNLm0us0e5clNujI',
+            width: '310',
+            height: '163',
+          },
+        ],
+        metatags: [
+          {
+            referrer: 'origin',
+            'og:image':
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/non_lg.png',
+            'og:image:width': '256',
+            'twitter:card': 'summary',
+            'og:site_name': 'Contributions by Florent Daccord',
+            viewport:
+              'initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no',
+            'og:title': 'Contributions by Florent Daccord',
+            'og:image:height': '256',
+            google: 'notranslate',
+            'og:description': '69 Contributions',
+          },
+        ],
+        place: [
+          {
+            image:
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/non_lg.png',
+            name: 'Contributions by Florent Daccord',
+            description: '69 Contributions',
+          },
+        ],
+        cse_image: [
+          {
+            src: 'https://maps.gstatic.com/tactile/geoprofile/sharing/non_lg.png',
+          },
+        ],
+      },
     },
-  },
-  {
-    kind: 'customsearch#result',
-    title: 'Fff',
-    htmlTitle: '<b>Fff</b>',
-    link: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy80ODJkMTFiMC9wb2RjYXN0L3Jzcw==',
-    displayLink: 'www.google.com',
-    snippet:
-      'Fff. Alec Russell. Fff. Subscribe. Visit website. F. Available episodes. Apr 7, 2021. F. F. 1 sec. Search. Clear search. Close search. Main menu. Google apps.',
-    htmlSnippet:
-      '<b>Fff</b>. Alec Russell. <b>Fff</b>. Subscribe. Visit website. F. Available episodes. Apr 7, 2021. F. F. 1 sec. Search. Clear search. Close search. Main menu. Google apps.',
-    cacheId: 'FiNwZX8hVF8J',
-    formattedUrl: 'https://www.google.com/podcasts?feed...',
-    htmlFormattedUrl: 'https://www.google.com/podcasts?feed...',
-    pagemap: {
-      metatags: [
-        {
-          'og:image':
-            'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRBcXk1cWVD14ko5bz4-DKk8UlZUWHaO8FsiRluSNXLy6tieh8',
-          'apple-itunes-app':
-            'app-id=1398000105, affiliate-data=ct=podcastsSmartBannerShow001&pt=9008, app-argument=https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80ODJkMTFiMC9wb2RjYXN0L3Jzcw',
-          'og:type': 'music.radio_station',
-          'twitter:card': 'summary',
-          'twitter:title': 'Fff',
-          'og:site_name': 'Google Podcasts',
-          'og:title': 'Fff',
-          'music:creator': 'Fff',
-          title: 'Fff',
-          'og:description': 'F',
-          'twitter:creator': 'Fff',
-          'article:author': 'Fff',
-          'twitter:image':
-            'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRBcXk1cWVD14ko5bz4-DKk8UlZUWHaO8FsiRluSNXLy6tieh8',
-          referrer: 'origin',
-          viewport:
-            'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui',
-          'og:url':
-            'https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80ODJkMTFiMC9wb2RjYXN0L3Jzcw',
-        },
-      ],
-      cse_image: [
-        {
-          src: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRBcXk1cWVD14ko5bz4-DKk8UlZUWHaO8FsiRluSNXLy6tieh8',
-        },
-      ],
+    {
+      kind: 'customsearch#result',
+      title: 'Florent POINSIGNON',
+      htmlTitle: '\u003cb\u003eFlorent\u003c/b\u003e POINSIGNON',
+      link: 'https://www.google.com/maps/contrib/102380582176061932776/reviews',
+      displayLink: 'www.google.com',
+      snippet:
+        '(Translated by Google) Car taken 2 times for a recurring ventilation problem on a new vehicle, vehicle immobilized 2 times 2 days to do nothing more than ...',
+      htmlSnippet:
+        '(Translated by Google) Car taken 2 times for a recurring ventilation problem on a new vehicle, vehicle immobilized 2 times 2 days to do nothing more than&nbsp;...',
+      cacheId: '-kw8DNVdJcsJ',
+      formattedUrl:
+        'https://www.google.com/maps/contrib/102380582176061932776/reviews',
+      htmlFormattedUrl:
+        'https://www.google.com/maps/contrib/102380582176061932776/reviews',
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSjsuMXw41HvKt-V5343CUF8T9SctSxlub6gOjFnmpdNLm0us0e5clNujI',
+            width: '310',
+            height: '163',
+          },
+        ],
+        metatags: [
+          {
+            referrer: 'origin',
+            'og:image':
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/non_lg.png',
+            'og:image:width': '256',
+            'twitter:card': 'summary',
+            'og:site_name': 'Contributions by Florent POINSIGNON',
+            viewport:
+              'initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no',
+            'og:title': 'Contributions by Florent POINSIGNON',
+            'og:image:height': '256',
+            google: 'notranslate',
+            'og:description': '21 Contributions',
+          },
+        ],
+        place: [
+          {
+            image:
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/non_lg.png',
+            name: 'Contributions by Florent POINSIGNON',
+            description: '21 Contributions',
+          },
+        ],
+        cse_image: [
+          {
+            src: 'https://maps.gstatic.com/tactile/geoprofile/sharing/non_lg.png',
+          },
+        ],
+      },
     },
-  },
-  {
-    kind: 'customsearch#result',
-    title: 'Focus Forward Fridays',
-    htmlTitle: 'Focus Forward Fridays',
-    link: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yOWQxYWE2NC9wb2RjYXN0L3Jzcw==',
-    displayLink: 'www.google.com',
-    snippet:
-      'Welcome to the FFF Family! This is a podcast by Jess, a Black, female PhD Engineering student sharing some inspiration and advice on how you can "Focus  ...',
-    htmlSnippet:
-      'Welcome to the <b>FFF</b> Family! This is a podcast by Jess, a Black, female PhD Engineering student sharing some inspiration and advice on how you can &quot;Focus &nbsp;...',
-    cacheId: 'R0kUhzJWDh4J',
-    formattedUrl: 'https://www.google.com/podcasts?feed...',
-    htmlFormattedUrl: 'https://www.google.com/podcasts?feed...',
-    pagemap: {
-      metatags: [
-        {
-          'og:image':
-            'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS66Z6lV1xImLiaevFeNFQXzzJp9EO8NHZ2DnCYtWlD-829KETS',
-          'apple-itunes-app':
-            'app-id=1398000105, affiliate-data=ct=podcastsSmartBannerShow001&pt=9008, app-argument=https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yOWQxYWE2NC9wb2RjYXN0L3Jzcw',
-          'og:type': 'music.radio_station',
-          'twitter:card': 'summary',
-          'twitter:title': 'Focus Forward Fridays',
-          'og:site_name': 'Google Podcasts',
-          'og:title': 'Focus Forward Fridays',
-          'music:creator': 'Focus Forward Fridays',
-          title: 'Focus Forward Fridays',
-          'og:description':
-            'Welcome to the FFF Family! This is a podcast by Jess, a Black, female PhD Engineering student sharing some inspiration and advice on how you can "Focus Forward" and live life to the fullest.',
-          'twitter:creator': 'Focus Forward Fridays',
-          'article:author': 'Focus Forward Fridays',
-          'twitter:image':
-            'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS66Z6lV1xImLiaevFeNFQXzzJp9EO8NHZ2DnCYtWlD-829KETS',
-          referrer: 'origin',
-          viewport:
-            'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui',
-          'og:url':
-            'https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yOWQxYWE2NC9wb2RjYXN0L3Jzcw',
-        },
-      ],
-      cse_image: [
-        {
-          src: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS66Z6lV1xImLiaevFeNFQXzzJp9EO8NHZ2DnCYtWlD-829KETS',
-        },
-      ],
+    {
+      kind: 'customsearch#result',
+      title: 'Florent Leturmy',
+      htmlTitle: '\u003cb\u003eFlorent\u003c/b\u003e Leturmy',
+      link: 'https://www.google.com/maps/contrib/104763272647288860246/reviews',
+      displayLink: 'www.google.com',
+      snippet:
+        "Hi Florent, Thank you so much for the lovely review. I'm so happy that we achieved the results you wanted. The additional crown coverage, even though you ...",
+      htmlSnippet:
+        'Hi \u003cb\u003eFlorent\u003c/b\u003e, Thank you so much for the lovely review. I&#39;m so happy that we achieved the results you wanted. The additional crown coverage, even though you&nbsp;...',
+      cacheId: 'dk8lTjPYR5MJ',
+      formattedUrl:
+        'https://www.google.com/maps/contrib/104763272647288860246/reviews',
+      htmlFormattedUrl:
+        'https://www.google.com/maps/contrib/104763272647288860246/reviews',
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSjsuMXw41HvKt-V5343CUF8T9SctSxlub6gOjFnmpdNLm0us0e5clNujI',
+            width: '310',
+            height: '163',
+          },
+        ],
+        metatags: [
+          {
+            referrer: 'origin',
+            'og:image':
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/non_lg.png',
+            'og:image:width': '256',
+            'twitter:card': 'summary',
+            'og:site_name': 'Contributions by Florent Leturmy',
+            viewport:
+              'initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no',
+            'og:title': 'Contributions by Florent Leturmy',
+            'og:image:height': '256',
+            google: 'notranslate',
+            'og:description': '32 Contributions',
+          },
+        ],
+        place: [
+          {
+            image:
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/non_lg.png',
+            name: 'Contributions by Florent Leturmy',
+            description: '32 Contributions',
+          },
+        ],
+        cse_image: [
+          {
+            src: 'https://maps.gstatic.com/tactile/geoprofile/sharing/non_lg.png',
+          },
+        ],
+      },
     },
-  },
-  {
-    kind: 'customsearch#result',
-    title: 'The Football Fan Force',
-    htmlTitle: 'The Football Fan Force',
-    link: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy80ODBiMmU0Yy9wb2RjYXN0L3Jzcw==',
-    displayLink: 'www.google.com',
-    snippet:
-      "The FFF is a YouTube channel/podcast network dedicated to bringing you fun, informative, and interactive content. We'll have in-depth club profiles of teams all  ...",
-    htmlSnippet:
-      'The <b>FFF</b> is a YouTube channel/podcast network dedicated to bringing you fun, informative, and interactive content. We&#39;ll have in-depth club profiles of teams all &nbsp;...',
-    cacheId: 'ArmiSWdsHnoJ',
-    formattedUrl: 'https://www.google.com/podcasts?feed...',
-    htmlFormattedUrl: 'https://www.google.com/podcasts?feed...',
-    pagemap: {
-      metatags: [
-        {
-          'og:image':
-            'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRK_VdC2G_OPHo_oNkRk-fFMfnqFFtyJi2iUGssEgqPNNXY6gQ',
-          'apple-itunes-app':
-            'app-id=1398000105, affiliate-data=ct=podcastsSmartBannerShow001&pt=9008, app-argument=https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80ODBiMmU0Yy9wb2RjYXN0L3Jzcw',
-          'og:type': 'music.radio_station',
-          'twitter:card': 'summary',
-          'twitter:title': 'The Football Fan Force',
-          'og:site_name': 'Google Podcasts',
-          'og:title': 'The Football Fan Force',
-          'music:creator': 'The Football Fan Force',
-          title: 'The Football Fan Force',
-          'og:description':
-            "The FFF is a YouTube channel/podcast network dedicated to bringing you fun, informative, and interactive content.\n\nWe'll have in-depth club profiles of teams all over the world, fan interviews, brief updates of most of the leagues out there, football film reviews, stadium visits on matchdays (once we're allowed back in obviously), debates, and much much more.\n\nPlease contact us:\n\n@TheFFF84 on Twitter\n\nhttps://www.facebook.com/TheFFF84\n\nhttps://www.youtube.com/channel/UCg37gymDXgi9C6z9YGx9iTw\n\nor\n\nemail: thetriplef2021@gmail.com",
-          'twitter:creator': 'The Football Fan Force',
-          'article:author': 'The Football Fan Force',
-          'twitter:image':
-            'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRK_VdC2G_OPHo_oNkRk-fFMfnqFFtyJi2iUGssEgqPNNXY6gQ',
-          referrer: 'origin',
-          viewport:
-            'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui',
-          'og:url':
-            'https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80ODBiMmU0Yy9wb2RjYXN0L3Jzcw',
-        },
-      ],
-      cse_image: [
-        {
-          src: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRK_VdC2G_OPHo_oNkRk-fFMfnqFFtyJi2iUGssEgqPNNXY6gQ',
-        },
-      ],
+    {
+      kind: 'customsearch#result',
+      title: '2 Florent Pauwelslei - Google Maps',
+      htmlTitle:
+        '2 \u003cb\u003eFlorent\u003c/b\u003e Pauwelslei - Google Maps',
+      link: 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=51.205805500,4.471223900',
+      displayLink: 'www.google.com',
+      snippet:
+        'Find local businesses, view maps and get driving directions in Google Maps.',
+      htmlSnippet:
+        'Find local businesses, view maps and get driving directions in Google Maps.',
+      cacheId: 'xtoJYDXO-zoJ',
+      formattedUrl:
+        'https://www.google.com/maps/@?api=1&map_action=pano...51...',
+      htmlFormattedUrl:
+        'https://www.google.com/maps/@?api=1&amp;map_action=pano...51...',
+      pagemap: {
+        metatags: [
+          {
+            referrer: 'origin',
+            'og:image':
+              'https://maps.google.com/maps/api/staticmap?center=51.2058055%2C4.4712239&zoom=-1&size=256x256&language=en&sensor=false&client=google-maps-frontend&signature=PyTLrMh5xDLmM4g13wwUDnQ6s4U',
+            'og:image:width': '256',
+            'twitter:card': 'summary',
+            'og:site_name': 'Google Maps',
+            viewport:
+              'initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no',
+            'og:title': 'Google Maps',
+            'og:image:height': '256',
+            google: 'notranslate',
+            'og:description':
+              'Find local businesses, view maps and get driving directions in Google Maps.',
+          },
+        ],
+        place: [
+          {
+            image:
+              'https://maps.google.com/maps/api/staticmap?center=51.2058055%2C4.4712239&zoom=-1&size=256x256&language=en&sensor=false&client=google-maps-frontend&signature=PyTLrMh5xDLmM4g13wwUDnQ6s4U',
+            name: 'Google Maps',
+            description:
+              'Find local businesses, view maps and get driving directions in Google Maps.',
+          },
+        ],
+        cse_image: [
+          {
+            src: 'https://maps.google.com/maps/api/staticmap?center=51.2058055%2C4.4712239&zoom=-1&size=256x256&language=en&sensor=false&client=google-maps-frontend&signature=PyTLrMh5xDLmM4g13wwUDnQ6s4U',
+          },
+        ],
+      },
     },
-  },
-  {
-    kind: 'customsearch#result',
-    title: 'Fortaleza y Fé Familiar (FFF)',
-    htmlTitle: 'Fortaleza y Fé Familiar (<b>FFF</b>)',
-    link: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy81MTI2M2FiYy9wb2RjYXN0L3Jzcw==',
-    displayLink: 'www.google.com',
-    snippet:
-      'Fortaleza y Fé Familiar (FFF). Jorge Valadez. Fortaleza y Fé Familiar (FFF). Subscribe. Visit website. Temas de salud mental, psicología y desarrollo ...',
-    htmlSnippet:
-      'Fortaleza y Fé Familiar (<b>FFF</b>). Jorge Valadez. Fortaleza y Fé Familiar (<b>FFF</b>). Subscribe. Visit website. Temas de salud mental, psicología y desarrollo&nbsp;...',
-    cacheId: 'bboyNnhBYkYJ',
-    formattedUrl: 'https://www.google.com/podcasts?feed...',
-    htmlFormattedUrl: 'https://www.google.com/podcasts?feed...',
-    pagemap: {
-      metatags: [
-        {
-          'og:image':
-            'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSQU2Wqr-LyY-cmuBORO2c0M8AqIJk_Hab-x5dztS1Rfbub0bim',
-          'apple-itunes-app':
-            'app-id=1398000105, affiliate-data=ct=podcastsSmartBannerShow001&pt=9008, app-argument=https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTI2M2FiYy9wb2RjYXN0L3Jzcw',
-          'og:type': 'music.radio_station',
-          'twitter:card': 'summary',
-          'twitter:title': 'Fortaleza y Fé Familiar (FFF)',
-          'og:site_name': 'Google Podcasts',
-          'og:title': 'Fortaleza y Fé Familiar (FFF)',
-          'music:creator': 'Fortaleza y Fé Familiar (FFF)',
-          title: 'Fortaleza y Fé Familiar (FFF)',
-          'og:description':
-            'Temas de salud mental, psicología y desarrollo personal para toda la familia.',
-          'twitter:creator': 'Fortaleza y Fé Familiar (FFF)',
-          'article:author': 'Fortaleza y Fé Familiar (FFF)',
-          'twitter:image':
-            'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSQU2Wqr-LyY-cmuBORO2c0M8AqIJk_Hab-x5dztS1Rfbub0bim',
-          referrer: 'origin',
-          viewport:
-            'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui',
-          'og:url':
-            'https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MTI2M2FiYy9wb2RjYXN0L3Jzcw',
-        },
-      ],
-      cse_image: [
-        {
-          src: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSQU2Wqr-LyY-cmuBORO2c0M8AqIJk_Hab-x5dztS1Rfbub0bim',
-        },
-      ],
+    {
+      kind: 'customsearch#result',
+      title: 'Florent Seichepine',
+      htmlTitle: '\u003cb\u003eFlorent\u003c/b\u003e Seichepine',
+      link: 'https://www.google.com/maps/contrib/113219383443627067363/reviews',
+      displayLink: 'www.google.com',
+      snippet:
+        "Hi Florent, Thank you for your review and 5*. We're delighted you enjoyed your recent visit and our company! ;) We hope to see you again soon. Kind regards ...",
+      htmlSnippet:
+        'Hi \u003cb\u003eFlorent\u003c/b\u003e, Thank you for your review and 5*. We&#39;re delighted you enjoyed your recent visit and our company! ;) We hope to see you again soon. Kind regards&nbsp;...',
+      cacheId: '8_PZwA7DsqQJ',
+      formattedUrl:
+        'https://www.google.com/maps/contrib/113219383443627067363/reviews',
+      htmlFormattedUrl:
+        'https://www.google.com/maps/contrib/113219383443627067363/reviews',
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS6AKPxcKCbFW7eGHGdTjCiqmdQQ5IgvK--21nWN8kIjF239s-qTIZ3Jk8T',
+            width: '310',
+            height: '163',
+          },
+        ],
+        metatags: [
+          {
+            referrer: 'origin',
+            'og:image':
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/lg_5.png',
+            'og:image:width': '256',
+            'twitter:card': 'summary',
+            'og:site_name': 'Contributions by Florent Seichepine',
+            viewport:
+              'initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no',
+            'og:title': 'Contributions by Florent Seichepine',
+            'og:image:height': '256',
+            google: 'notranslate',
+            'og:description': 'Level 6 Local Guide | 1,929 Points',
+          },
+        ],
+        place: [
+          {
+            image:
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/lg_5.png',
+            name: 'Contributions by Florent Seichepine',
+            description: 'Level 6 Local Guide | 1,929 Points',
+          },
+        ],
+        cse_image: [
+          {
+            src: 'https://maps.gstatic.com/tactile/geoprofile/sharing/lg_5.png',
+          },
+        ],
+      },
     },
-  },
-  {
-    kind: 'customsearch#result',
-    title: 'CN203739247U - 一种可旋转收纳式fff成型技术3d打印机- Google ...',
-    htmlTitle:
-      'CN203739247U - 一种可旋转收纳式<b>fff</b>成型技术3d打印机- Google ...',
-    link: 'https://www.google.com/patents/CN203739247U?cl=zh',
-    displayLink: 'www.google.com',
-    snippet:
-      '本实用新型提供了一种可旋转收纳式FFF成型技术3D打印机，包括收纳式打印机的打印平台及控制系统，所述打印平台由底座、及与底座安装的两组阻尼式滑轨活动 ...',
-    htmlSnippet:
-      '本实用新型提供了一种可旋转收纳式<b>FFF</b>成型技术3D打印机，包括收纳式打印机的打印平台及控制系统，所述打印平台由底座、及与底座安装的两组阻尼式滑轨活动&nbsp;...',
-    formattedUrl: 'https://www.google.com/patents/CN203739247U?cl=zh',
-    htmlFormattedUrl: 'https://www.google.com/patents/CN203739247U?cl=zh',
-    pagemap: {
-      metatags: [
-        {
-          referrer: 'origin-when-crossorigin',
-          citation_patent_application_number: 'CN:201420086556.2U',
-          citation_patent_number: 'CN:203739247:U',
-          'dc.description':
-            '本实用新型提供了一种可旋转收纳式FFF成型技术3D打印机，包括收纳式打印机的打印平台及控制系统，所述打印平台由底座、及与底座安装的两组阻尼式滑轨活动连接的移动台面组成，所述底座两侧设置的纵向移动导轨上装有纵向步进电机，纵向步进电机经同步带驱动连接纵向滑块上设置的回转定位机构，所述回转定位机构通过定位连接板与打印移动架连接；所述打印移动架架内的侧面与端面，设有垂直移动导轨和垂直驱动电机，于垂直驱动电机连接的驱动丝杠上装有沿垂直移动导轨上下移动的打印头支架，在打印头支架上装有横向步进电机，横向步进电机经同步带与横向移动导轨上设置的打印挤出机连接。本实用新型体积小，携带方便，结构从收纳到打印状态的转换简单，工作状态定位可靠。',
-          'dc.type': 'patent',
-          viewport: 'width=device-width, initial-scale=1',
-          'dc.title': '一种可旋转收纳式fff成型技术3d打印机',
-          citation_pdf_url:
-            'https://patentimages.storage.googleapis.com/f4/e2/7c/f7cedc409fa952/CN203739247U.pdf',
-          'dc.date': '2014-02-27',
-          'dc.contributor': '柴立峰',
-        },
-      ],
+    {
+      kind: 'customsearch#result',
+      title: 'Google Maps',
+      htmlTitle: 'Google Maps',
+      link: 'https://www.google.com/maps/contrib/113767697856773820713/reviews',
+      displayLink: 'www.google.com',
+      snippet:
+        '(Translated by Google) Hello Florent, Thank you for your rating and support. ... Pot Company (Original) Bonjour Florent, Merci pour ton évaluation et ton soutien.',
+      htmlSnippet:
+        '(Translated by Google) Hello \u003cb\u003eFlorent\u003c/b\u003e, Thank you for your rating and support. ... Pot Company (Original) Bonjour \u003cb\u003eFlorent\u003c/b\u003e, Merci pour ton évaluation et ton soutien.',
+      cacheId: '6ntEFYs0pZcJ',
+      formattedUrl:
+        'https://www.google.com/maps/contrib/113767697856773820713/reviews',
+      htmlFormattedUrl:
+        'https://www.google.com/maps/contrib/113767697856773820713/reviews',
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS6AKPxcKCbFW7eGHGdTjCiqmdQQ5IgvK--21nWN8kIjF239s-qTIZ3Jk8T',
+            width: '310',
+            height: '163',
+          },
+        ],
+        metatags: [
+          {
+            referrer: 'origin',
+            'og:image':
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/lg_5.png',
+            'og:image:width': '256',
+            'twitter:card': 'summary',
+            'og:site_name': 'Contributions by Florent Buffière',
+            viewport:
+              'initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no',
+            'og:title': 'Contributions by Florent Buffière',
+            'og:image:height': '256',
+            google: 'notranslate',
+            'og:description': 'Level 6 Local Guide | 1,749 Points',
+          },
+        ],
+        place: [
+          {
+            image:
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/lg_5.png',
+            name: 'Contributions by Florent Buffière',
+            description: 'Level 6 Local Guide | 1,749 Points',
+          },
+        ],
+        cse_image: [
+          {
+            src: 'https://maps.gstatic.com/tactile/geoprofile/sharing/lg_5.png',
+          },
+        ],
+      },
     },
-  },
-  {
-    kind: 'customsearch#result',
-    title: '1b;["e97lYK_7F_WIwbkP1peEmA0"]3;[2]928e;<style>.irc_t{display ...',
-    htmlTitle:
-      '1b;[&quot;e97lYK_7F_WIwbkP1peEmA0&quot;]3;[2]928e;&lt;style&gt;.irc_t{display ...',
-    link: 'http://www.google.com/async/irc?vet=10ahUKEwjMz5Pmyt_fAhUJmuAKHfSCCOsQo0EIlAI..i&ved=0ahUKEwjMz5Pmyt_fAhUJmuAKHfSCCOsQo0EIlAI&hl=en&tbs=qdr:d&yv=3&q=happy+holidays&bih=1024&biw=1024&async=iu:0,_id:irc_async,_pms:s,_fmt:pc',
-    displayLink: 'www.google.com',
-    snippet:
-      'o5rIVb{text-decoration:none}.irc_fd{bottom:50%;background:rgba(60,64,67,.8); color:#fff;font-size:11px;line-height:100%;padding:3px 4px 5px;position:absolute  ...',
-    htmlSnippet:
-      'o5rIVb{text-decoration:none}.irc_fd{bottom:50%;background:rgba(60,64,67,.8); color:#<b>fff</b>;font-size:11px;line-height:100%;padding:3px 4px 5px;position:absolute &nbsp;...',
-    cacheId: 'SKnl_y33Mx8J',
-    formattedUrl: 'www.google.com/async/irc?vet...i...',
-    htmlFormattedUrl: 'www.google.com/async/irc?vet...i...',
-    mime: 'text/plain',
-    fileFormat: 'text/plain',
-  },
-];
+    {
+      kind: 'customsearch#result',
+      title: 'Google Maps - Florent Burdin',
+      htmlTitle: 'Google Maps - \u003cb\u003eFlorent\u003c/b\u003e Burdin',
+      link: 'https://www.google.com/maps/contrib/114454095683212414983/reviews',
+      displayLink: 'www.google.com',
+      snippet:
+        '(Translated by Google) Hello Florent, We are sorry to hear about your bad experience during your visit to our store. Our staff strives to be the most courteous and ...',
+      htmlSnippet:
+        '(Translated by Google) Hello \u003cb\u003eFlorent\u003c/b\u003e, We are sorry to hear about your bad experience during your visit to our store. Our staff strives to be the most courteous and&nbsp;...',
+      cacheId: 'IlHxN6cLNjYJ',
+      formattedUrl:
+        'https://www.google.com/maps/contrib/114454095683212414983/reviews',
+      htmlFormattedUrl:
+        'https://www.google.com/maps/contrib/114454095683212414983/reviews',
+      pagemap: {
+        cse_thumbnail: [
+          {
+            src: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSnvOWa__nknQDPhRK3biydCez_GcRd6HdMu0Y6vHm6pF4ps-rQyn4wCEiB',
+            width: '310',
+            height: '163',
+          },
+        ],
+        metatags: [
+          {
+            referrer: 'origin',
+            'og:image':
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/lg_3.png',
+            'og:image:width': '256',
+            'twitter:card': 'summary',
+            'og:site_name': 'Contributions by Florent Burdin',
+            viewport:
+              'initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no',
+            'og:title': 'Contributions by Florent Burdin',
+            'og:image:height': '256',
+            google: 'notranslate',
+            'og:description': 'Level 3 Local Guide | 210 Points',
+          },
+        ],
+        place: [
+          {
+            image:
+              'https://maps.gstatic.com/tactile/geoprofile/sharing/lg_3.png',
+            name: 'Contributions by Florent Burdin',
+            description: 'Level 3 Local Guide | 210 Points',
+          },
+        ],
+        cse_image: [
+          {
+            src: 'https://maps.gstatic.com/tactile/geoprofile/sharing/lg_3.png',
+          },
+        ],
+      },
+    },
+  ],
+};
